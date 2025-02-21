@@ -1,0 +1,21 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-green: #39FF14;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-neon-green {
+  color: var(--neon-green);
+}
+
+.bg-neon-green {
+  background-color: var(--neon-green);
+}
